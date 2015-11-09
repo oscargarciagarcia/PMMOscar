@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+
+    //layout de los radiobutton
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        >
+
+        <ImageButton
+            android:text="Rojo"
+            android:id="@+id/imageButton1"
+            android:layout_width="175px"
+            android:layout_height="175px"
+            android:background="@drawable/rojo"
+            >
+        </ImageButton>
+        <ImageButton
+            android:text="Verde"
+            android:id="@+id/imageButton2"
+            android:layout_width="175px"
+            android:layout_height="175px"
+            android:background="@drawable/verde"
+            >
+        </ImageButton>
+        <ImageButton
+            android:text="Azul"
+            android:id="@+id/imageButton3"
+            android:layout_width="175px"
+            android:layout_height="175px"
+            android:background="@drawable/azul"
+            >
+        </ImageButton>
+
+    </LinearLayout>
+
+    //layout de los botones
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+
+        >
+
+        <Button
+            android:text="Quitar Color"
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+        </Button>
+    </LinearLayout>
+
+    //layout del text view para poner el color
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <TextView
+            android:id="@+id/textview1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </TextView>
+    </LinearLayout>
+</LinearLayout>

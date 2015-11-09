@@ -1,0 +1,16 @@
+<resources>
+
+    <string name="app_name">HolaMundo3</string>
+    <string name="app_name2">Pantalla Saludo</string>
+
+    <string name="saludo">Hola Oscar</string>
+    <string name="escribe"></string>
+    <string name="pulsar">PULSAR</string>
+    <string name="volver">Pulsa para volver a la pantalla inicial</string>
+
+
+    <string name="action_settings">Settings</string>
+
+</resources>
+
+
